@@ -19,13 +19,17 @@ hr.rounded {
   content: "";
   clear: both;
   display: table;
+  
 }
-.container img {
-  float: right;
-  margin-right: 20px;
-  border-radius: 100vh;
-  margin-top: auto;
-}
+.container column-50 my-image {
+  
+    width:300px;
+    height:300px;
+    flex-direction: column;
+    object-fit:cover;
+    margin-top: auto;
+  }
+
 
 /*---- our - team ----*/
 .our-team{
@@ -66,17 +70,26 @@ img {
 
   margin-bottom: 5%;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+ max-height: max-content;
 
   
 }
+.aboutus myimg{
+  float: left;
+}
+
 .section-newsletter {
   margin-top: auto;
-  
-  
+  margin-left: auto;
+  text-align: left;
   color: beige;
   
-
 }
 
+
+
+.form-container{
+  display: flex;
+  text-align: right;
+box-sizing: border-box;
+}
