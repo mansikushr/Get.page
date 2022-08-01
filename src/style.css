@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  
+  box-sizing: border-box;
+ background-color: rgb(33, 33, 96);
+}
+ 
+#header {
+
+  width: 50px;
+  margin: 0%;
+}
+hr.rounded {
+  border-top: 8px solid rosybrown;
+  border-radius: 2px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container img {
+  float: right;
+  margin-right: 20px;
+  border-radius: 100vh;
+  margin-top: auto;
+}
+
+/*---- our - team ----*/
+.our-team{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 1px;
+  border: 1px solid #0091;
+}
+.our-team image {
+ width: 100%;
+ margin-top: 100px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  
+  border-radius: 50%;
+  border: 1px solid #0091;
+}
+.row {
+  margin-top: 0.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*--- about-us---*/
+.aboutus{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  font-style: calc();
+  
+}
+.aboutus-center {
+  flex-basis: 32%;
+
+  margin-bottom: 5%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  
+}
+.section-newsletter {
+  margin-top: auto;
+  
+  
+  color: beige;
+  
+
+}
+
