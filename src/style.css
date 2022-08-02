@@ -63,7 +63,7 @@ img {
   text-align: center;
   padding-top: 50px;
   font-style: calc();
-  
+  image-rendering: crisp-edges;
 }
 .aboutus-center {
   flex-basis: 32%;
@@ -80,7 +80,7 @@ img {
 
 .section-newsletter {
   margin-top: auto;
-  margin-left: auto;
+  margin-left: 0%;
   text-align: left;
   color: beige;
   
@@ -90,6 +90,47 @@ img {
 
 .form-container{
   display: flex;
-  text-align: right;
+ font: 1em sans-serif;
+  text-align: center;
 box-sizing: border-box;
+
 }
+.blog .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+  font-style: calc();
+  font-display: white;
+}
+
+.blog .team {
+  padding: 10vmin 4vmin;
+}
+.blog img{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  shape-image-threshold: calc();
+  image-resolution: 100vh;
+}
+.blog .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.blog .card .card-text {
+  padding: 0.5em;
+}
+
+.blog .card-body > a {
+  font-size: 1.5em;
+}
+
+.blog .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
